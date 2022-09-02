@@ -69,7 +69,7 @@ const taskDm = new Task('dm')
     } else {
       compiler = 'DreamMaker';
     }
-    await exec(compiler, ['tgstation.dme']);
+    await exec(compiler, ['hippiestation.dme']);
   });
 
 // Frontend
